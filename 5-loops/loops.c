@@ -54,6 +54,10 @@ int main()
     {
         printf("Escolha um número entre 0 e 9: ");
         scanf("%d", &input);
+        if (input > 0 && input < 9)
+        {
+            printf("nice");
+        }
     } while (input < 0 || input > 9);
 
     return 0;
