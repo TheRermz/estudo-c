@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <locale.h>
 
 // Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias
 
@@ -16,7 +15,13 @@ int main()
     scanf("%d", &ageDays);
 
     ageYear = ageDays / 365;
-    printf("%d", ageYear);
+    printf("Anos: %d\n", ageYear);
+
+    ageMonth = (ageDays % 365) / 30;
+    printf("Meses: %d\n", ageMonth);
+
+    ageDay = (ageDays % 365) % 30;
+    printf("Dias: %d\n", ageDay);
 
     return 0;
 }
