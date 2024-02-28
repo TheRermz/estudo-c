@@ -31,7 +31,7 @@ int main()
     trapezio = (a + b) / 2 * c;
     quadrado = pow(b, 2);
     retangulo = a * b;
-
+// mais um testes
     printf("Triangulo:%.2lf\nCirculo:%.2lf\nTrapezio:%.2lf\nQuadrado:%.2lf\nRetangulo:%.2lf\n", triangulo, circulo, trapezio, quadrado, retangulo);
     return 0;
 }
