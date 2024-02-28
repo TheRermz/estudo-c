@@ -16,6 +16,7 @@ int main()
 
     printf("Digite o valor de b:\n");
     scanf("%d", &b);
+    // opa teste
 
     printf("Digite o valor de c:\n");
     scanf("%d", &c);
