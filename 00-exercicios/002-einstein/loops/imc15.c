@@ -1,6 +1,5 @@
 #include <stdio.h>
-// FaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§a um programa que calcule o IMC 15 pessoas. O programa deve solicitar a altura e o peso da pessoa. Para calcular o IMC utilize a fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³rmula
-// (IMC = peso/(altura*altura).  Com base no cÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡lculo do IMC, informe ao usuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡rio sua situaÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ£o:
+// Faca um programa que calcule o IMC de 15 pessoas. O programa deve solicitar a altura e o peso da pessoa. Para Calcular o IMC utilize a formula (IMC = peso /(altura*altura)). Com base no calculo do IMC, informe ao usuario a sua situacao
 int main()
 {
     int count = 0;
