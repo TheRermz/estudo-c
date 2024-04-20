@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
     // 3.	Faca um programa em C que calcula o salario final de um funcionario. Serao atribuidos bonus ao salario do funcionario de acordo com pontuacoes atingidas, de acordo com a tabela abaixo. SalarioFinal = Salario + Bonus. (obs: o usuario entra com a pontuacao). (2 pontos)
-
     float salario, bonus;
 
     printf("Fala, meu consagrado!\nMe diz ai teu salario, por gentileza:\n");
