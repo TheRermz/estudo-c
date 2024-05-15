@@ -2,20 +2,20 @@
 
 int main()
 {
-    // calculo de terreno, usuario insere largura e comprimento, calcular e mostrar a area
-    float largura, comprimento, area;
+   // calculo de terreno, usuario insere largura e comprimento, calcular e mostrar a area
+   float largura, comprimento, area;
 
-    // o usuario insere a largura e ela e armazenada na variavel e espaco de memoria
-    printf("Por favor, insira a largura:\n");
-    scanf("%f", &largura);
+   // o usuario insere a largura e ela e armazenada na variavel e espaco de memoria
+   printf("Por favor, insira a largura:\n");
+   scanf("%f", &largura);
 
-    // o usuario em seguida insere o comprimento e a mesma tambem e armazenada na variavel e espaco de memoria
-    printf("Agora, insira o comprimento:\n");
-    scanf("%f", &comprimento);
+   // o usuario em seguida insere o comprimento e a mesma tambem e armazenada na variavel e espaco de memoria
+   printf("Agora, insira o comprimento:\n");
+   scanf("%f", &comprimento);
 
-    // calculo da area e a impressao dela, mostrando o resultado
-    area = largura * comprimento;
-    printf("A area do terreno sera %.2f!!!", area);
+   // calculo da area e a impressao dela, mostrando o resultado
+   area = largura * comprimento;
+   printf("A area do terreno sera %.2f!!!", area);
 }
 
 /*
@@ -29,6 +29,7 @@ var
 
    largura <- 0
    comprimento <- 0
+
    area <- 0
 
 inicio
